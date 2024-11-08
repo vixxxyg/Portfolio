@@ -224,6 +224,13 @@ html, body {
 
 /* Footer */
 
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 27px;
+}
+
 .footer {
     background-color: var(--dark-bg);
     padding: 60px 0 50px;
@@ -231,9 +238,15 @@ html, body {
 }
 
 .social {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
 }
-.social__item {
-    
-}
+
 .copyright {
+    font-size: 16px;
+}
+
+.copyright p + p {
+    margin-top: 0.5em;
 }
