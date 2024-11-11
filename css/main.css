@@ -135,7 +135,7 @@ html, body {
     justify-content: center;
     
     background-color: var(--dark-bg);
-    background-image: url('./../img/header-bg.png');
+    background-image: url('./../images/header-bg.png');
     background-repeat: no-repeat;
     block-size: auto;
     background-position: center;
