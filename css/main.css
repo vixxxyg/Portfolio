@@ -77,13 +77,14 @@ html, body {
     justify-content: space-between;
     align-items: center;
     column-gap: 30px;
-    row-gap: 20px; */
+    row-gap: 20px;
     flex-wrap: wrap;
 }
 
 .nav-list{
     display: flex;
     align-items: center;
+    row-gap: 10px;
     column-gap: 40px;
     font-size: 16px;
     font-weight: 500;
@@ -349,3 +350,13 @@ html, body {
     margin-top: 0.5em;
 }
 
+
+
+
+
+@media screen (max-width: 620px) {
+    .header__title {
+        font-size: 300px;
+    }
+
+}
