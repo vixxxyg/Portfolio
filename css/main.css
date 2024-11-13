@@ -235,6 +235,7 @@ html, body {
 
 .projects {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 30px;
@@ -352,11 +353,48 @@ html, body {
 
 
 
-
-
-@media screen (max-width: 620px) {
-    .header__title {
-        font-size: 300px;
+@media screen and (max-width: 620px) {
+    .header {
+        min-height: unset;
     }
+    
+    .header__title {
+        font-size: 30px;
+    }
+
+    .header__title strong{
+        font-size: 40px;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .title-1 {
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    .project__title {
+        font-size: 22px;
+
+    }
+
+    .footer {
+        padding: 40px 0 30px;
+    }
+    
+    .footer__wrapper {
+        row-gap: 20px;
+    }
+
+    .social {
+        column-gap: 20px;
+    }
+
+    li.social__item {
+        width: 28px;
+    }
+
 
 }
