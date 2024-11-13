@@ -1,5 +1,3 @@
-console.log('hi');
-
 const btnDarkMode = document.querySelector(".dark-mode-btn");
 
 btnDarkMode.onclick = function () {
