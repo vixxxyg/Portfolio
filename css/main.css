@@ -74,7 +74,7 @@ html, body {
 
 .nav-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     column-gap: 30px;
     row-gap: 20px;
@@ -117,6 +117,10 @@ html, body {
     background-color: var(--accent);
 }
 
+a.logo {
+    margin-right: auto;
+}
+
 .logo {
     color: var(--header-text);
     font-size: 24px;
@@ -128,6 +132,7 @@ html, body {
 }
 
 .dark-mode-btn {
+    order: 9;
     position: relative;
     display: flex;
     width: 51px;
@@ -349,7 +354,6 @@ html, body {
 .content-list__item {
     font-size: 18px;
     line-height: 1.5;
-
 }
 
 .content-list__item p + p {
@@ -387,6 +391,14 @@ html, body {
 }
 
 @media screen and (max-width: 620px) {
+    .nav-row {
+        justify-content: space-between;
+    }
+
+    .dark-mode-btn {
+        order: 0;
+    }
+
     .header {
         min-height: unset;
     }
