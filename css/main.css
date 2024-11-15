@@ -30,7 +30,7 @@
 }
 
  /* Dark mode */
- 
+
 .dark {
     
     --page-bg: #252526;
@@ -287,6 +287,7 @@ a.logo {
     
     border-radius: 5px; 
     border: 1px solid var(--pureblack);
+    background-color: var(--white);
     color: var(--pureblack); 
     
     transition: opacity 0.2s ease-in;
